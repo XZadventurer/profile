@@ -182,16 +182,36 @@ body {
 }
 
 .resume-preview {
-  background: #f9fafb;
+  background: #ffffff;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
-  padding: 1rem;
+  padding: 1.5rem;
   max-height: 600px;
   overflow-y: auto;
-  font-size: 0.875rem;
-  color: #374151;
+  font-size: 0.9rem;
+  color: #1f2937;
   white-space: pre-wrap;
-  line-height: 1.6;
+  line-height: 1.8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.resume-preview::-webkit-scrollbar {
+  width: 8px;
+}
+
+.resume-preview::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 4px;
+}
+
+.resume-preview::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+}
+
+.resume-preview::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
 }
 
 .empty-state {
